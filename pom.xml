@@ -299,7 +299,7 @@
                             <reportPlugins>
                                 <plugin>
                                     <artifactId>maven-project-info-reports-plugin</artifactId>
-                                    <version>2.7</version>
+                                    <version>3.1</version>
                                 </plugin>
                                 <plugin>
                                     <groupId>org.jacoco</groupId>
@@ -420,7 +420,7 @@
                     <plugin>
                         <groupId>org.codehaus.mojo</groupId>
                         <artifactId>cobertura-maven-plugin</artifactId>
-                        <version>2.7</version>
+                        <version>3.1</version>
                         <configuration>
                             <formats>
                                 <format>html</format>
@@ -431,7 +431,7 @@
                     <plugin>
                         <groupId>org.apache.maven.plugins</groupId>
                         <artifactId>maven-pmd-plugin</artifactId>
-                        <version>2.7</version>
+                        <version>3.1</version>
                         <configuration>
                             <targetJdk>1.8</targetJdk>
                             <aggregate>true</aggregate>
@@ -464,7 +464,7 @@
                     </plugin>
                     <plugin>
                         <artifactId>maven-javadoc-plugin</artifactId>
-                        <version>2.7</version>
+                        <version>3.1</version>
                         <configuration>
                             <source>1.8</source>
                             <doclet>
